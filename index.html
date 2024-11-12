@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Markdown Memo Pro</title>
+  <link href="styles.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.2.12/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css">
+  <script src="clipboardHistory.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+  <div id="app">
+    <div id="sidebar" class="sidebar">
+      <div class="sidebar-header">
+        <h3>クリップボード履歴</h3>
+        <button id="clearHistory" class="sidebar-button">履歴をクリア</button>
+      </div>
+      <div id="clipboardHistory" class="clipboard-history"></div>
+    </div>
+    <div id="main-content"></div>
+  </div>
+</body>
+</html>
